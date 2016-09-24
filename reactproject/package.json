@@ -1,0 +1,39 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.3.2",
+    "webpack": "^1.13.2",
+    "react-dom": "^15.3.2",
+    "webpack-bundle-tracker": "^0.0.93"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.5",
+    "react": "^15.3.2",
+    "webpack": "^1.13.2",
+    "webpack-bundle-tracker": "0.0.93"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedericoLlamas/ReactProject.git"
+  },
+  "keywords": [
+    "alumnos20"
+  ],
+  "author": "Federico Llamas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedericoLlamas/ReactProject/issues"
+  },
+  "homepage": "https://github.com/FedericoLlamas/ReactProject#readme"
+}

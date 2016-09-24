@@ -1,19 +1,13 @@
-<!-- index.html -->
+{% load render_bundle from webpack_loader %}
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>React1 Tutorial</title>
-    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
-    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
-    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
-    <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
-    <script src="https://unpkg.com/remarkable@1.6.2/dist/remarkable.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Example</title>
   </head>
+
   <body>
-    <div id='example'></div>
-    <script type="text/javascript" src="/home/federico/Documentos/fede/ReactProject/reactproject/static/main/js/main.js"></script>
+    <div id="react-app"></div>
+    {% render_bundle 'main' %}
   </body>
 </html>
-
-
